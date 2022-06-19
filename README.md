@@ -10,6 +10,7 @@ My dotfiles for bspwm
 - [sxhkd](https://github.com/baskerville/sxhkd) (hotkey)
 - [kitty](https://github.com/kovidgoyal/kitty) (terminal)
 - [nitrogen](https://github.com/l3ib/nitrogen) (background setter)
+- [rofi](https://github.com/davatorium/rofi) (basically dmenu but better)
 
 ## Screenshots
 
