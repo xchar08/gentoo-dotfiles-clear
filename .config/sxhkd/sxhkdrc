@@ -19,12 +19,28 @@ super + Return
 	kitty
 
 # program launcher
-super + @space
+super + d
 	rofi -show drun
+
+# show windows 
+super + w
+	rofi -show window
+
+# show run window
+super + r
+	rofi -show run
+
+# show file browser
+super + f
+	rofi -show filebrowser
 
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
+
+# append xprop to file
+super + ctrl + shift + p
+  xprop >> ~/xprop.txt
 
 #
 # bspwm hotkeys
@@ -48,15 +64,15 @@ super + y
 
 # swap the current node and the biggest window
 super + g
-	bspc node -s biggest.window
+	bspc node -s biggest.local
 
 #
 # state/flags
 #
 
 # set the window state
-super + {t,shift + t,s,f}
-	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+# super + {t,shift + t,s,f}
+#	 bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 # set the node flags
 super + ctrl + {m,x,y,z}
