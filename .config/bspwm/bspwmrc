@@ -23,5 +23,5 @@ bspc rule -a Screenkey manage=off
 
 # start polybar
 picom -f &
-feh --bg-scale ~/wallpapers/wallpaper.jpg &
+~/.fehbg &
 ~/.config/polybar/launch.sh
