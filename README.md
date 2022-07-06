@@ -9,7 +9,7 @@ My dotfiles for bspwm
 - [picom](https://github.com/yshui/picom) (compositor)
 - [sxhkd](https://github.com/baskerville/sxhkd) (hotkey)
 - [kitty](https://github.com/kovidgoyal/kitty) (terminal)
-- [nitrogen](https://github.com/l3ib/nitrogen) (background setter)
+- [feh](https://github.com/derf/feh) (background setter)
 - [rofi](https://github.com/davatorium/rofi) (basically dmenu but better)
 
 ## Screenshots
